@@ -30,6 +30,25 @@ body {
   filter: blur(0.1vmin);
   background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
 }
+.card-selamat {
+  background-color: #3498db; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 20px; /* Ruang padding di dalam elemen */
+  border-radius: 10px; /* Bentuk sudut elemen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  text-align: center; /* Pusatkan teks */
+}
+
+.card-selamat h3 {
+  font-size: 2em; /* Ukuran font judul */
+  margin-bottom: 10px; /* Ruang bawah judul */
+}
+
+.card-selamat p {
+  font-size: 1.2em; /* Ukuran font paragraf */
+  line-height: 1.5; /* Tinggi baris */
+}
+
 
 .flowers {
   position: relative;
